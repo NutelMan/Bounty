@@ -1,0 +1,11 @@
+bounty:
+  default-bounty: 0
+  increase-percent: 10
+  decrease-percent: 20
+  kill-bounty: 50
+  death-bounty: 30
+messages:
+  kill-message: "&aВы убили %victim% и получили +%kill_amount% баунти! Ваш баунти: %bounty%"
+  death-message: "&cВы умерли и потеряли %death_amount% баунти! Ваш баунти: %bounty%"
+database:
+  type: sqlite
