@@ -1,0 +1,13 @@
+name: Bounty
+version: '${project.version}'
+main: org.example.bounty.BountyPlugin
+api-version: '1.20'
+softdepend: [PlaceholderAPI]
+commands:
+  bounty:
+    description: Управление баунти
+    usage: /<command> [player] | /<command> [set|add|remove] <player> <amount>
+permissions:
+  bounty.admin:
+    description: Доступ к админским командам баунти
+    default: op
